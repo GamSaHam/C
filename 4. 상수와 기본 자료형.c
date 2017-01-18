@@ -1,7 +1,7 @@
 // 상수 및 기본 데이터 타입
 
 
-#include <studio.h> // 임포트 개념
+#include <stdio.h> // 임포트 개념
 
 void main() // 함수의 앤트리
 {

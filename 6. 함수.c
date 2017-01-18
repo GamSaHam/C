@@ -1,7 +1,7 @@
 // 함수 개념
 
 
-#include <studio.h> // 임포트 개념
+#include <stdio.h> // 임포트 개념
 
 
 // 함수의 기본형

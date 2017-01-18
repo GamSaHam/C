@@ -1,6 +1,6 @@
 // 연산자
 
-#include <studio.h> // 임포트 개념
+#include <stdio.h> // 임포트 개념
 
 void main() // 함수의 앤트리
 {

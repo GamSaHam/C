@@ -1,7 +1,7 @@
 // 지역 변수 전역 변수
 
 
-#include <studio.h> // 임포트 개념
+#include <stdio.h> // 임포트 개념
 
 int b =20; // 전역변수 어디에서나 사용가능
 
