@@ -5,23 +5,24 @@
 
 void main() // 함수의 앤트리
 {
-    while(true) // while문 ()조건문이 true이면 {}이하 무한 반복.
+    while(1) // while문 ()조건문이 0이 아니면 이면 {}이하 무한 반복.
     {
-        if(true) // if문 ()조건문이 true이면 {}이하 실행 
+        if(1) // if문 ()조건문이 0이 아니면 {}이하 실행 
         {
             break; //상위 반복문을 빠져 나간다.
         }
 
-        if(false) 
+        if(0) 
         {
             
-        }else // else 문 if문의 ()조건문이 false면 {}아래 실행
+        }else // else 문 if문의 ()조건문이 0이 아니면 else{}아래 실행
         {
             continue; // 아래 명령어를 실행 하지않고 상위 조건문으로 실행 한다.
         }
     }
 
-    for(int i=0;i<5;i++) // ( 초기값 ; 조건값 (조건값이 true이면 아래 실행); 증감값 )
+    int i;
+    for(i=0;i<5;i++) // ( 초기값 ; 조건값 (조건값이 0이 아니면 아래 실행); 증감값 )
     {
       //이하 break,continue 동작이 같음
 
